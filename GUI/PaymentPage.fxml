@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="380.0" prefWidth="600.0">
+      <children>
+         <ScrollBar layoutX="579.0" layoutY="11.0" orientation="VERTICAL" prefHeight="360.0" prefWidth="14.0" />
+         <Text layoutX="277.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment" />
+         <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../asset/pincard.png" />
+            </image>
+         </ImageView>
+      </children></AnchorPane>
+</Scene>
