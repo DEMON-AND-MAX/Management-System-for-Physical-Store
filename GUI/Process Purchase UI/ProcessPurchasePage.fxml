@@ -2,25 +2,25 @@
 
 <?import javafx.scene.Scene?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
 
 <Scene xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
     <AnchorPane prefHeight="380.0" prefWidth="600.0">
       <children>
          <ImageView fitHeight="157.0" fitWidth="553.0" layoutX="16.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
             <image>
-               <Image url="@../asset/img1.png" />
+               <Image url="@../../asset/img1.png" />
             </image>
          </ImageView>
          <ScrollBar layoutX="579.0" layoutY="11.0" orientation="VERTICAL" prefHeight="360.0" prefWidth="14.0" />
-         <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="16.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-               <Image url="@../asset/user.png" />
-            </image>
-         </ImageView>
-         <Button layoutX="238.0" layoutY="332.0" mnemonicParsing="false" text="Proceed to checkout" />
+         <Text layoutX="35.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prepare the following items:" />
+         <CheckBox layoutX="35.0" layoutY="208.0" mnemonicParsing="false" text="Oatmeal Yogurt" />
+         <Button layoutX="495.0" layoutY="301.0" mnemonicParsing="false" text="Mark done" />
+         <Button layoutX="424.0" layoutY="340.0" mnemonicParsing="false" text="Request manager order" />
       </children></AnchorPane>
 </Scene>

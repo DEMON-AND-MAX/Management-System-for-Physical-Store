@@ -14,7 +14,7 @@
          <Text layoutX="277.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment" />
          <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
             <image>
-               <Image url="@../asset/pincard.png" />
+               <Image url="@../../asset/pincard.png" />
             </image>
          </ImageView>
       </children></AnchorPane>
